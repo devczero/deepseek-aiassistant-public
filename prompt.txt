@@ -1,0 +1,132 @@
+THIS PROMPT IS FOR UI ENHANCEMENTS
+Design a modern, minimalistic user interface inspired by ShadCN UI but with an elevated, luxurious feel. The interface should feature:
+
+A dark background for a sleek and futuristic look, with vibrant accent colors to highlight interactive elements.
+Clean lines and ample white space to maintain clarity and focus.
+Intuitive navigation that feels effortless and professional, like something designed by an expensive, high-end UI designer.
+Use subtle shadows, smooth transitions, and rounded corners (2xl or larger) for a polished finish.
+Incorporate modern typography with bold headings and legible text, balancing elegance and readability.
+Ensure the design feels cohesive, consistent, and visually striking while staying user-friendly
+
+
+
+PROMPT 1
+
+Please generate a full landing page in Next.js that will mainly display a 
+chat window for interacting with you (DeepSeek R1). The chat window 
+is rendered through the <YourComponent /> component, which is already implemented.
+ Assume the chat window handles user input and AI responses.
+
+The page design should have:
+
+A modern, futuristic, beautiful, and minimalistic look.
+Use Tailwind CSS for styling.
+A dark theme by default, with gradients or subtle glowing effects.
+A centered chat window as the main focus.
+A header with the title: 'DeepSeek AI Chat', styled with futuristic typography.
+A brief description below the header, explaining how to use the chat window.
+Ensure the design is fully responsive and clean.
+Provide the full Next.js page code, ready to paste into app/page.tsx."
+
+
+
+PROMPT 2
+
+Please, on page, add these features:
+
+-switch from reasoner to chat model and back: there will be a switch, that will allow user to switch to chat model and back to reasoner model
+-templating: somewhere on the page, will be a button that will say "generate a clerk auth for web application", that will set the prompt to our chatbot
+and he will answer to prompt for generating a clerk auth for web application, making user not needed to take any action, just click that button and chat
+will start answering
+
+
+PROMPT 3
+
+I want to enhance the functionality of my project by adding new features. Here's what I need:
+
+1. Model Selection
+Placement: The model selection should be displayed above the chat window.
+Purpose: Users can easily switch models before interacting with the chat.
+2. Template Features
+Placement: The template features should be placed on the left-hand side of the interface.
+add a functionality: when the template features are clicked (any of them), i dont want user to hit send, but i want this to be sent automatically
+to deepseek, so he starts to respond immediately
+Additional Templates to Add:
+Stripe Integration: A pre-made template for implementing Stripe payment processing.
+Prisma ORM Models: Templates for a User and Subscription schema with prompts for setting up models and testing database calls.
+Environment Variable Templates: Auto-generate .env file templates for Supabase, Stripe, and Clerk configurations.
+3. New Feature: Context Toggle Button
+Button Functionality:
+Add a button to the interface. When clicked, the button changes color to indicate that it's active.
+When active, the system (Deepseek) enters a different context: "Make this AI modern and minimalistic like ShadCN UI."
+Purpose: When users paste code while this mode is active, the AI will return an enhanced version of the code, improving its UI and 
+usability to follow modern, minimalistic standards (like ShadCN UI).
+
+
+Objective
+The point of this prompt is to create a feature-rich interface where:
+Users have control over model selection and template availability.
+Users can toggle a web designer mode with a single button click to enhance their code with a clean and modern design automatically.
+
+
+PROMPT 4
+
+
+
+I want to enhance the functionality of my project by adding new features. Here's what I need:
+
+1. Model Selection
+Placement: The model selection should be displayed above the chat window.
+Purpose: Users can easily switch models before interacting with the chat.
+2. Template Features
+Placement: The template features should be placed on the left-hand side of the interface.
+add a functionality: when the template features are clicked (any of them), i dont want user to hit send, but i want this to be sent automatically
+to deepseek, so he starts to respond immediately
+Additional Templates to Add:
+Stripe Integration: A pre-made template for implementing Stripe payment processing.
+Prisma ORM Models: Templates for a User and Subscription schema with prompts for setting up models and testing database calls.
+Environment Variable Templates: Auto-generate .env file templates for Supabase, Stripe, and Clerk configurations.
+3. New Feature: Context Toggle Button
+Button Functionality:
+Add a button to the interface. When clicked, the button changes color to indicate that it's active.
+When active, the system (Deepseek) enters a different context: "Make this AI modern and minimalistic like ShadCN UI."
+Purpose: When users paste code while this mode is active, the AI will return an enhanced version of the code, improving its UI and 
+usability to follow modern, minimalistic standards (like ShadCN UI).
+
+
+Objective
+The point of this prompt is to create a feature-rich interface where:
+Users have control over model selection and template availability.
+Users can toggle a web designer mode with a single button click to enhance their code with a clean and modern design automatically.
+
+
+
+Please refine current functionality of prompt window in our component:
+Currently, the chat prompt textbox in my chatbot application only displays about one and a half lines of text, 
+which feels restrictive. I want to improve this by making the textbox expandable. It should grow vertically as the user types, 
+up to a reasonable limit, ensuring more lines are visible without feeling cramped. Ideally, it should expand upwards toward the 
+'answer' window, similar to how modern chat applications like ChatGPT handle it. Maybe you also handle it like that, but your website
+is unavailable, so I cant tell. This allows for a better user experience when composing longer prompts.
+
+
+
+
+PROMPT 5
+
+For the functionality where a user clicks a template and it appears in the textbox, and then clicks again to send it, 
+add an enhancement: When the template is clicked (and inserted into the textbox), the template button should start pulsing 
+or display a 'Confirm' text over it. This will indicate to the user that they need to click again to send the prompt.
+
+
+PROMPT 6
+
+Please, for the "Activate Design Mode", when activated, I want to return just enhanced UI code,
+with tailwindcss, no additional text around, and keep the good styling practices as previously
+
+
+
+PROMPT 7
+
+Please fix the issue where a user can write a long message, but it is not properly formatted,
+causing the message to expand and increase the window width. Ensure that messages have correctly
+defined boundaries to maintain a consistent layout.
